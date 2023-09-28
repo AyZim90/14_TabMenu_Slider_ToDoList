@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/todolist.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2>Мой список дел</h2>
+        <input type="text" id="myInput" placeholder="Название...">
+        <span onclick="newElement()" class="addBtn">Добавить</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>Идти только вперед</li>
+        <li class="checked">Послать всех подальше</li>
+        <li>Выучить JavaScript</li>
+        <li>Задавать много вопросов</li>
+        <li>Прочитать книгу</li>
+        <li>Никого не слушать</li>
+      </ul>
+</body>
+<script src="/src/js/todolist.js"></script>
+</html>
